@@ -97,7 +97,7 @@ _log "Compressing $CACHE to $CACHE.tar.xz"
 tar -caf $CACHE.tar.xz $CACHE
 _log "$CACHE.tar.xz is ready"
 
-rm -rv $CACHE
+rm -r $CACHE
 
 
 ############################################################################
